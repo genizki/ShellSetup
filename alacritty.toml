@@ -1,0 +1,17 @@
+[general]
+import = ["./themes/tokyo-night-alacritty-theme/tokyo-night-strom.toml"]
+
+[window]
+decorations = "None"
+padding.x = 5 # Horizontal padding in pixels (left and right)
+padding.y = 5 # Vertical padding in pixels (top and bottom)
+dynamic_padding = false
+
+[font]
+normal = { family = "0xProto Nerd Font", style = "Regular" }
+bold = { family = "0xProto Nerd Font", style = "Bold" }
+italic = { family = "0xProto Nerd Font", style = "Italic" }
+bold_italic = { family = "0xProto Nerd Font", style = "Bold Italic" }
+size = 12.0
+
+
