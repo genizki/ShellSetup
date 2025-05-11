@@ -52,7 +52,7 @@ mkdir -p ~/.config/alacritty/
 mkdir -p ~/.config/alacritty/themes/
 
 cp ./alacritty.toml ~/.config/alacritty/alacritty.toml
-cp ./alacritty.toml ~/.config/alacritty/themes/tokyo-night-alacritty-theme/
+cp ./alacritty.toml ~/.config/alacritty/themes/tokyo-night.toml
 
 # ZSH Config
 cp ./.zshrc ~/.zshrc
