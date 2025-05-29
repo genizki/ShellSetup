@@ -1,0 +1,49 @@
+{
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "latex": false
+    },
+    "workbench.colorTheme": "Ayu Tokyo Night",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "\"0xProto Nerd Font\", \"0xProto\", monospace",
+    "editor.lineNumbers": "relative",
+    //Vim Settings
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        {"before": ["<S-h>"], "commands": [":bprevious"]},
+        {"before": ["<S-l>"], "commands": [":bnext"]}, 
+        // panes
+        {
+            "before":["leader", "h"],
+            "commands":["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before":["leader", "j"],
+            "commands":["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before":["leader", "k"],
+            "commands":["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before":["leader", "l"],
+            "commands":["workbench.action.focusRightGroup"]
+        },
+        //Filetree
+        {
+            "before":["leader", "e"],
+            "commands":["workbench.explorer.fileView.focus"]
+        },
+        //Extra
+        {
+            "before":["leader", "f"], "commands": ["workbench.action.quickOpen"]
+        }
+    ]
+}
