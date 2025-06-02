@@ -1,0 +1,83 @@
+{
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": "never"
+  },
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": true
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    // "agent_review": false,
+    "quick_actions": false
+  },
+  "scrollbar": {},
+  "title_bar": {
+    "show_sign_in": false,
+    "show_user_picture": false,
+    "show_onboarding_banner": false,
+    "show_branch_icon": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "agent": {
+    "version": "2",
+    "button": false
+  },
+  "cursor_blink": false,
+  "vim_mode": true,
+  "ui_font_size": 12,
+  "buffer_font_size": 13,
+  "relative_line_numbers": true,
+  "active_pane_modifiers": {
+    "magnification": 1,
+    "inactive_opacity": 0.8
+  },
+  "ui_font_family": "0xProto Nerd Font Mono",
+  "buffer_font_family": "0xProto Nerd Font Mono",
+  "terminal": {
+    "font_family": "0xProto Nerd Font Mono",
+    "button": false
+  },
+  "theme": {
+    "mode": "system",
+    "light": "Tokyo Night",
+    "dark": "Tokyo Night"
+  },
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  // Statusbar (buttom)
+  "search": {
+    "button": false
+  },
+  "project_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+  "outline_panel": { "button": false },
+  "diagnostics": {
+    "button": false,
+    "include_warnings": true,
+    "inline": {
+      "enabled": false,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null
+    },
+    "cargo": null
+  },
+  "debugger": {
+    "stepping_granularity": "line",
+    "save_breakpoints": true,
+    "button": true
+  }
+}
