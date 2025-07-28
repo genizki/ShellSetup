@@ -1,5 +1,5 @@
 [general]
-import = ["./themes/tokyo-night-alacritty-theme/tokyo-night-strom.toml"]
+import = ["./themes/tokyo-night-alacritty-theme/tokyo-night-storm.toml"]
 
 [window]
 decorations = "None"
