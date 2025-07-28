@@ -3,9 +3,9 @@ import = ["./themes/tokyo-night-alacritty-theme/tokyo-night-storm.toml"]
 
 [window]
 decorations = "None"
-padding.x = 5 # Horizontal padding in pixels (left and right)
-padding.y = 5 # Vertical padding in pixels (top and bottom)
-dynamic_padding = false
+padding.x = 2 # Horizontal padding in pixels (left and right)
+padding.y = 2 # Vertical padding in pixels (top and bottom)
+dynamic_padding = true
 
 [font]
 normal = { family = "0xProto Nerd Font", style = "Regular" }
